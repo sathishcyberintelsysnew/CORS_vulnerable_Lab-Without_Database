@@ -1,4 +1,4 @@
-FROM php:7.4.21-apache
+FROM php:8.0-apache
 RUN apt-get update && apt-get -y upgrade
 COPY . /var/www/html/
 EXPOSE 80
